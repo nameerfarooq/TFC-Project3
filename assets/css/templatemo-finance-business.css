@@ -254,6 +254,25 @@ header {
     -o-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
 }
+
+
+
+.navbar .navbar-nav a.nav-link {
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #0000ff !important;
+    transition: all 0.5s;
+    margin-top: 5px;
+}
+
+
+@media screen and (max-width: 480px) {
+	.hellonavbar{margin-top: 200px !important; }
+	
+  }
+
 header .navbar {
 	padding: 20px 0px;
 }
@@ -404,15 +423,15 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/one.jpg);
+	background-image: url(../images/slider2final.jpg);
 }
 
 .Modern-Slider .item-2 .img-fill {
-	background-image: url(../images/slider3n.jpg);
+	background-image: url(../images/slider1.png);
 }
 
 .Modern-Slider .item-3 .img-fill {
-	background-image: url(../images/biometric-attendance-system.png);
+	background-image: url(../images/slider33.jpg);
 }
 
 .Modern-Slider .NextArrow{
